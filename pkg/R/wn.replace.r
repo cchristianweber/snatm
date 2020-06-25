@@ -1,4 +1,5 @@
 library("tm")
+cat('PAST TM AND BEFORE wordnet')
 Sys.setenv(WNHOME = "/usr/local/lib/R/site-library/wordnet")
 library("wordnet")
 
