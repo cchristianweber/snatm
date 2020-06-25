@@ -1,4 +1,5 @@
 library("tm")
+Sys.setenv(WNHOME = "/usr/local/lib/R/site-library/wordnet")
 library("wordnet")
 
 wn.replace <- 
